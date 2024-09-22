@@ -1,0 +1,107 @@
+.outer {
+    padding: 150px;
+    /* width: 1100px; */
+    border: +2px solid skyblue;
+    background-color: seagreen;
+    z-index: 1;
+}
+
+.inner {
+    background-color: white;
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 10px 5px rgba(7, 7, 94, 0.333);
+    padding: 35px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.Header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Header h3 {
+    font-family: sans-serif;
+    color: rgba(7, 7, 94, 0.916);
+    text-transform: uppercase;
+    padding-right: 380px;
+    z-index: 1;
+}
+
+
+
+.Header li:hover {
+    background-color: rgba(7, 7, 94, 0.808);
+    color: white;
+    text-transform: uppercase;
+    font-size: smaller;
+    border-radius: 30px;
+    padding: 4px 10px;
+}
+
+.liftPart h1 {
+    text-transform: capitalize;
+    /* font-family: sans-serif; */
+    color: purple;
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+    width: 40px;
+}
+
+
+
+.leftPart p {
+    padding-top: 50px;
+    width: 10%;
+    color: rgb(79, 136, 159);
+    font-family: sans-serif;
+    font-size: 14.5px;
+}
+
+.hello{
+    background-color: rgb(79, 136, 159);
+    padding: 5px;
+    display: inline;
+    margin: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: small;
+    color: #fff;
+}
+
+
+.leftPart img {
+    position: relative;
+    top: 100px;
+    width: 20px;
+    margin: 200PX;
+    right: -100px;
+    /* width: 25px; */
+    padding: 0px 15px 0px 0px;
+}
+button{
+    padding: 10px 20px;
+    color:white;
+    background-color: red;
+    margin: +5px;
+    /* top: 20px; */
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    /* transition: .4s ease-in;bod */
+}
+
+.rightPart img {
+    position: relative;
+    width: 650px;
+    height: 450px;
+    top: -430px;
+    left: 305px;
+    z-index: 1;
+}
+
